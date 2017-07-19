@@ -1,0 +1,37 @@
+*{
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.crystalBoxes {
+
+}
+
+img {
+  width: 15%;
+  height: 15%;
+  mix-blend-mode: multiply;
+}
+
+.box1 {
+  background-color: lightblue;
+}
+#one {
+  background-color: red;
+}
+#two {
+  background-color: pink;
+}
+#crystal1{
+  background-color: green;
+}
+#crystal2{
+  background-color: purple;
+
+}
+#crystal3{
+  background-color: red;
+}
+#crystal4 {
+  background-color: yellow;
+}

@@ -2,9 +2,71 @@
 <html>
   <head>
     <meta charset="utf-8">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+
     <title>Crystal Collector</title>
   </head>
   <body>
+<div class="box1">
 
+
+<h1>Crystal Collector</h1>
+</div>
+
+<div class="info">
+  <p>You will be given a random number at the start of the game</p>
+
+  <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+  <p>You win the game by matching your score to the random number, you lose the game if your total score goes above the random number.</p>
+  <p>The value of each crystal is hidden from you until you click on it.</p>
+
+  <p>Each time when the game starts, the game will change the values of each crystal </p>
+
+</div>
+
+<div class="box" id = "one"
+  <h3>Wins: <span id ="total-wins"></span> </h3>
+</div>
+
+<div class="box" id = "two">
+  <h3>Losses: <span id="total-losses"></span></h3>
+
+
+</div>
+<div class="crystalBoxes">
+   <img src="assets\images\screech.png" alt="green"
+   id="crystal1">
+
+   <img src="assets\images\screech.png" alt="purple" id="crystal2">
+
+  <img src="assets\images\screech.png" alt="red"
+  id="crystal3">
+
+  <img src="assets\images\screech.png"alt="yellow"
+  id="crystal4">
+
+</div>
+
+<div class="target">
+  <h2>Random Target:
+    <span id="random-target"></span>
+    </h2>
+</div>
+
+<div class="counter">
+    <h2>Total Score: <span id="total-Score"></span>
+    </h2>
+
+</div>
+<script src="assets/javascript/game.js">
+</script>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+</script>
   </body>
 </html>
